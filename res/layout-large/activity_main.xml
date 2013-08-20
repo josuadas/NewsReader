@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:baselineAligned="false" >
+
+    <fragment
+        android:id="@+id/NLFrag"
+        android:layout_width="0px"
+        android:layout_height="match_parent"
+        android:layout_weight="30"
+        class="com.josu.newsreader.fragments.NewsListFragment" />
+
+    <fragment
+        android:id="@+id/NDFrag"
+        android:layout_width="0px"
+        android:layout_height="match_parent"
+        android:layout_weight="70"
+        class="com.josu.newsreader.fragments.NewDetailFragment" />
+
+</LinearLayout>
